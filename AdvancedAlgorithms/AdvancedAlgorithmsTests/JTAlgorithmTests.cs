@@ -18,15 +18,13 @@ namespace AdvancedAlgorithmsTests
         [TestMethod]
         public void CheckTest2()
         {
-            // TO DO: Fix values
-            FullJTATest("test2.txt", 7, 7, 7);
+            FullJTATest("test2.txt", 6, 6, 6);
         }
 
         [TestMethod]
         public void CheckTest3()
         {
-            // TO DO: Fix values
-            FullJTATest("test3.txt", 22, 22, 21);
+            FullJTATest("test3.txt", 12, 12, 11);
         }
 
         private void FullJTATest(string fileName, int expectedIterations, int expectede1Count, int expectede2Count)
